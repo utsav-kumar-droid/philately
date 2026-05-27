@@ -1,0 +1,566 @@
+/* ======================================== */
+/* PAGE LAYOUT CONTAINER */
+/* ======================================== */
+
+.user-dashboard-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background: #f3f4f6;
+  box-sizing: border-box;
+}
+
+/* ======================================== */
+/* 🧭 SIDEBAR NAVIGATION PANEL */
+/* ======================================== */
+
+.user-sidebar {
+  width: 280px;
+  background: #111827; /* Rich Dark Slate Brand Color */
+  color: white;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* USER PROFILE INFO SUMMARY BOX */
+
+.user-profile-summary {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.user-profile-summary img,
+.dashboard-avatar,
+.dashboard-avatar-fallback {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+  color: #cbd5e1;
+}
+
+.user-profile-summary h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  margin: 0 0 8px 0;
+}
+
+.user-role-badge {
+  display: inline-block;
+  background: #1e3a8a;
+  color: #93c5fd;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+/* NAVIGATION MENU BUTTON LIST */
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-btn {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: #cbd5e1;
+  padding: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: .3s;
+  text-align: left;
+}
+
+.menu-btn svg {
+  font-size: 18px;
+}
+
+.menu-btn:hover {
+  background: #1f2937;
+  color: white;
+}
+
+.menu-btn.active {
+  background: #f59e0b; /* Vibrant Brand Orange Highlight */
+  color: white;
+}
+
+/* ======================================== */
+/* 🖥️ MAIN PANEL WINDOW REGION */
+/* ======================================== */
+
+.user-main-content {
+  flex: 1;
+  padding: 40px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.dashboard-section h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #111827;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+/* ======================================== */
+/* 📦 TAB: ORDERS GRID SYSTEM */
+/* ======================================== */
+
+.orders-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+/* THE CONTAINER STAMP CARDS */
+
+.order-item-card {
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: .3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-item-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.order-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  background: #f3f4f6;
+}
+
+.order-details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.order-details h4 {
+  padding: 16px 16px 8px 16px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.price-tag {
+  padding: 0 16px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f59e0b; /* Brand Orange Price Identifier */
+  margin: 0;
+}
+
+/* ORDER BADGE LIVE LABELS */
+
+.status-badge {
+  display: inline-block;
+  width: fit-content;
+  margin: 16px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.status-badge.shipped {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.status-badge.delivered {
+  background: #dcfce7;
+  color: #166534;
+}
+
+/* ACTION ROUTING LINK TRIGGER BUTTON */
+
+.track-action-btn {
+  width: calc(100% - 32px);
+  margin: auto 16px 20px 16px;
+  border: none;
+  background: #2563eb; /* High Contrast Blue Trigger */
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: .3s;
+}
+
+.track-action-btn:hover {
+  background: #1d4ed8;
+}
+
+/* ======================================== */
+/* 💳 TAB: INTERNAL WALLET CARD DISPLAY */
+/* ======================================== */
+
+.wallet-card-display {
+  background: linear-gradient(135deg, #111827, #1e3a8a);
+  padding: 40px;
+  border-radius: 24px;
+  color: white;
+  max-width: 450px;
+  box-shadow: 0 12px 28px rgba(30, 58, 138, 0.25);
+  margin-bottom: 25px;
+}
+
+.wallet-card-display p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.wallet-card-display h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin: 0 0 25px 0;
+}
+
+.wallet-card-display small {
+  font-size: 13px;
+  color: #cbd5e1;
+}
+
+.add-funds-btn {
+  border: 2px solid #111827;
+  background: transparent;
+  color: #111827;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.add-funds-btn:hover {
+  background: #111827;
+  color: white;
+}
+
+/* ======================================== */
+/* 🏠 TAB: ADDRESS MODULE MANAGEMENT */
+/* ======================================== */
+
+.address-box {
+  background: white;
+  padding: 24px;
+  border-radius: 18px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  margin-bottom: 25px;
+  max-width: 600px;
+}
+
+.address-box p {
+  font-size: 15px;
+  color: #4b5563;
+  margin: 0 0 12px 0;
+  line-height: 1.5;
+}
+
+.address-box p strong {
+  color: #111827;
+  width: 100px;
+  display: inline-block;
+}
+
+.edit-addr-btn,
+.save-addr-btn {
+  border: none;
+  background: #f59e0b;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.edit-addr-btn:hover,
+.save-addr-btn:hover {
+  background: #d97706;
+}
+
+/* CONTROL FIELDS EDIT PANEL MODE */
+
+.address-edit-form {
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.address-edit-form label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #4b5563;
+}
+
+.address-edit-form input {
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  font-size: 15px;
+  background: #f9fafb;
+  transition: .3s;
+}
+
+.address-edit-form input:focus {
+  border-color: #f59e0b;
+  background: white;
+  outline: none;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.cancel-addr-btn {
+  border: none;
+  background: #e5e7eb;
+  color: #4b5563;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.cancel-addr-btn:hover {
+  background: #d1d5db;
+}
+
+/* ======================================== */
+/* ❤️ TAB: WISHLIST CARDS GRID SETUP */
+/* ======================================== */
+
+.wishlist-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.wishlist-item-card {
+  background: white;
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  transition: .3s;
+}
+
+.wishlist-item-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.wishlist-item-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #f3f4f6;
+  margin-bottom: 12px;
+}
+
+.wishlist-item-card h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 8px 0;
+}
+
+.wishlist-item-card p {
+  font-size: 18px;
+  font-weight: 800;
+  color: #111827;
+  margin: 0 0 15px 0;
+}
+
+.wishlist-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.move-to-cart-btn {
+  width: 100%;
+  border: none;
+  background: #f59e0b;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.move-to-cart-btn:hover {
+  background: #d97706;
+}
+
+.remove-wish-btn {
+  width: 100%;
+  border: none;
+  background: transparent;
+  color: #ef4444;
+  padding: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.remove-wish-btn:hover {
+  text-decoration: underline;
+}
+
+/* EMPTY BLOCKS AND ALERTS FALLBACKS */
+
+.empty-state,
+.no-items {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  color: #6b7280;
+  font-size: 16px;
+}
+
+.shop-now-btn {
+  border: none;
+  background: #111827;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: .3s;
+}
+
+.shop-now-btn:hover {
+  background: #1f2937;
+}
+
+/* ======================================== */
+/* 📱 SCREEN MEDIA RESPONSIVENESS */
+/* ======================================== */
+
+@media (max-width: 1400px) {
+  .orders-grid,
+  .wishlist-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .user-dashboard-container {
+    flex-direction: column;
+  }
+
+  .user-sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .sidebar-menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu-btn {
+    width: auto;
+  }
+
+  .orders-grid,
+  .wishlist-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .sidebar-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .menu-btn {
+    justify-content: center;
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .orders-grid,
+  .wishlist-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}

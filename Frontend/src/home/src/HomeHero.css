@@ -1,0 +1,303 @@
+/* ======================================== */
+/* RESET */
+/* ======================================== */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/* ======================================== */
+/* HERO SECTION */
+/* ======================================== */
+
+.home-hero{
+
+  width:100%;
+
+ height: 100vh;
+
+  display:flex;
+  align-items:center;
+
+padding:
+  80px 60px 30px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #07152d 0%,
+      #0c1f44 45%,
+      #142b55 100%
+    );
+
+  /* overflow:hidden; */
+
+  position:relative;
+}
+
+/* ======================================== */
+/* CONTENT */
+/* ======================================== */
+
+.home-hero-content{
+
+  max-width:820px;
+
+  width:100%;
+}
+
+/* ======================================== */
+/* CHIP */
+/* ======================================== */
+
+.home-hero-chip{
+
+  display:inline-flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+ padding:
+  12px 22px;
+
+font-size:12px;
+
+margin-bottom:30px;
+
+  border-radius:999px;
+
+  border:
+    1px solid
+    rgba(255,170,0,0.35);
+
+  background:
+    rgba(255,255,255,0.05);
+
+  backdrop-filter:blur(12px);
+
+  color:#f59e0b;
+
+
+  font-weight:500;
+
+  letter-spacing:2px;
+
+  text-transform:uppercase;
+}
+
+/* ======================================== */
+/* TITLE */
+/* ======================================== */
+
+.home-hero-title{
+
+font-size:68px;
+
+  line-height:1;
+
+  font-weight:800;
+
+  color:white;
+
+  margin-bottom:40px;
+}
+
+/* HIGHLIGHT */
+
+.home-hero-title span{
+
+  color:#fbbf24;
+
+  font-style:italic;
+}
+
+/* ======================================== */
+/* DESCRIPTION */
+/* ======================================== */
+
+.home-hero-description{
+
+  max-width:720px;
+
+ font-size:18px;
+
+line-height:1.6;
+
+margin-bottom:40px;
+
+  color:
+    rgba(255,255,255,0.68);
+
+ 
+}
+
+/* ======================================== */
+/* BUTTONS */
+/* ======================================== */
+
+.home-hero-buttons{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:24px;
+
+  flex-wrap:wrap;
+}
+
+/* ======================================== */
+/* PRIMARY BUTTON */
+/* ======================================== */
+
+.home-primary-btn{
+
+ min-width:210px;
+
+ padding:
+  16px 28px;
+
+  border-radius:20px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #2563eb,
+      #38bdf8
+    );
+
+  color:white;
+
+  text-decoration:none;
+
+  font-size:18px;
+
+  font-weight:600;
+
+  text-align:center;
+
+  transition:all .3s ease;
+
+  box-shadow:
+    0 12px 30px
+    rgba(37,99,235,0.35);
+}
+
+.home-primary-btn:hover{
+
+  transform:translateY(-4px);
+
+  box-shadow:
+    0 18px 40px
+    rgba(37,99,235,0.45);
+}
+
+/* ======================================== */
+/* OUTLINE BUTTON */
+/* ======================================== */
+
+.home-outline-btn{
+
+  min-width:260px;
+
+  padding:
+    24px 30px;
+
+  border-radius:20px;
+
+  border:
+    1px solid
+    rgba(255,255,255,0.18);
+
+  background:
+    rgba(255,255,255,0.06);
+
+  backdrop-filter:blur(10px);
+
+  color:white;
+
+  text-decoration:none;
+
+  font-size:28px;
+
+  font-weight:700;
+
+  text-align:center;
+
+  transition:all .3s ease;
+}
+
+.home-outline-btn:hover{
+
+  transform:translateY(-4px);
+
+  background:
+    rgba(255,255,255,0.1);
+}
+
+/* ======================================== */
+/* RESPONSIVE */
+/* ======================================== */
+
+@media(max-width:1200px){
+
+  .home-hero-title{
+
+    font-size:82px;
+  }
+
+  .home-hero-description{
+
+    font-size:24px;
+  }
+}
+
+@media(max-width:768px){
+
+  .home-hero{
+
+    padding:
+      120px 24px 80px;
+  }
+
+  .home-hero-content{
+
+    text-align:center;
+  }
+
+  .home-hero-title{
+
+    font-size:54px;
+  }
+
+  .home-hero-description{
+
+    font-size:18px;
+
+    line-height:1.7;
+  }
+
+  .home-hero-buttons{
+
+    flex-direction:column;
+
+    width:100%;
+  }
+
+  .home-primary-btn,
+  .home-outline-btn{
+
+    width:100%;
+  }
+
+  .home-hero-chip{
+
+    font-size:12px;
+
+    padding:
+      14px 20px;
+  }
+}

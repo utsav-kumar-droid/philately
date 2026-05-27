@@ -1,0 +1,109 @@
+.home-sections {
+  background: linear-gradient(180deg, #0b2347, #102f63);
+  color: white;
+}
+
+.games-section {
+  padding: 80px 60px;
+}
+
+.games-section h2 {
+  text-align: center;
+  font-size: 64px;
+  font-family: Georgia, serif;
+  margin-bottom: 40px;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.premium-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 28px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.game-card button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: #2563eb;
+  color: white;
+  font-weight: 700;
+}
+
+canvas {
+  width: 100%;
+  border-radius: 18px;
+  margin-top: 15px;
+}
+
+.jump-btn {
+  margin-top: 18px;
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
+}
+
+.stats-panel {
+  margin-top: 40px;
+}
+
+.points-big {
+  font-size: 72px;
+  color: #f59e0b;
+  font-weight: bold;
+}
+
+.leaderboard {
+  margin-top: 30px;
+}
+
+.leader-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.game-action-btn {
+  width: 100%;
+  margin-top: 18px;
+  padding: 14px;
+  border: none;
+  border-radius: 14px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.start-btn {
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
+}
+
+.restart-btn {
+  background: linear-gradient(90deg, #f59e0b, #fbbf24);
+}
+.stop-btn {
+  background: linear-gradient(90deg, #dc2626, #ef4444);
+  margin-top: 12px;
+}
+.game-action-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 900px) {
+  .games-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .games-section h2 {
+    font-size: 42px;
+  }
+}

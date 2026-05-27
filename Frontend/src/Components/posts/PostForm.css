@@ -1,0 +1,188 @@
+/* Post Form Container */
+.post-form-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border: 1px solid #f0f0f0;
+}
+
+.post-form-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 0 1.5rem 0;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+/* Form Styling */
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* Image Preview */
+.post-image-preview {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.post-image-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* File Input Label */
+.post-form-label {
+  padding: 0.8rem;
+  background: #f8f9fa;
+  border: 2px dashed #5865f2;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+  color: #5865f2;
+  transition: all 0.2s ease;
+}
+
+.post-form-label:hover {
+  background: #f0f1ff;
+  border-color: #4752d9;
+}
+
+/* Hide file input */
+#image-input {
+  display: none;
+}
+
+.post-form-input,
+.post-form-textarea {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1rem;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-family: inherit;
+  transition: all 0.2s ease;
+  background: white;
+}
+
+.post-form-input:focus,
+.post-form-textarea:focus {
+  border-color: #5865f2;
+  box-shadow: 0 0 0 3px rgba(88, 101, 242, 0.1);
+}
+
+.post-form-input::placeholder,
+.post-form-textarea::placeholder {
+  color: #999;
+}
+
+.post-form-textarea {
+  min-height: 200px;
+  resize: vertical;
+  line-height: 1.6;
+}
+
+/* Form Button */
+.post-form-button {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #5865f2 0%, #7289da 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 0.5rem;
+}
+
+.post-form-button:hover {
+  background: linear-gradient(135deg, #4752d9 0%, #5f77c2 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(88, 101, 242, 0.3);
+}
+
+.post-form-button:active {
+  transform: translateY(0);
+}
+
+/* Loading State */
+.post-form-loading {
+  text-align: center;
+  padding: 3rem 1rem;
+  font-size: 1.1rem;
+  color: #5865f2;
+  background: #f8f9fa;
+  border-radius: 8px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .post-form-container {
+    margin: 1rem auto;
+    padding: 1.5rem;
+  }
+
+  .post-form-title {
+    font-size: 1.5rem;
+  }
+
+  .post-form-input,
+  .post-form-textarea {
+    padding: 0.8rem;
+    font-size: 0.95rem;
+  }
+
+  .post-form-textarea {
+    min-height: 150px;
+  }
+
+  .post-image-preview {
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .post-form-container {
+    margin: 0;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  .post-form-title {
+    font-size: 1.3rem;
+  }
+
+  .post-form-input,
+  .post-form-textarea {
+    padding: 0.7rem;
+    font-size: 0.9rem;
+  }
+
+  .post-form-button {
+    padding: 0.9rem;
+    font-size: 0.95rem;
+  }
+
+  .post-image-preview {
+    height: 120px;
+  }
+}

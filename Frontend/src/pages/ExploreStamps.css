@@ -1,0 +1,428 @@
+/* ======================================== */
+/* PAGE */
+/* ======================================== */
+
+.explore-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #f3f4f6;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+/* ======================================== */
+/* HERO */
+/* ======================================== */
+
+.explore-hero {
+  width: 100%;
+  min-height: 380px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #111827, #1e3a8a);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+/* ======================================== */
+/* HERO CONTENT */
+/* ======================================== */
+
+.hero-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  margin: 0;
+}
+
+.hero-content h1 {
+  font-size: 52px;
+  margin-top: 12px;
+  color: white;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.hero-content p {
+  color: #cbd5e1;
+  margin-top: 10px;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.hero-image {
+  width: 220px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-top: 25px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+/* ======================================== */
+/* LIVE BADGE */
+/* ======================================== */
+
+.live-badge {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #ef4444;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* ======================================== */
+/* SLIDER BUTTONS */
+/* ======================================== */
+
+.slider-btn {
+  width: 56px;
+  height: 56px;
+  border: none;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+  transition: .3s;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  z-index: 2;
+}
+
+.slider-btn:hover {
+  transform: scale(1.1);
+}
+
+/* ======================================== */
+/* GRID */
+/* ======================================== */
+
+.stamp-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+}
+
+/* ======================================== */
+/* CARD */
+/* ======================================== */
+
+.stamp-card {
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  transition: .3s;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.stamp-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14);
+}
+
+/* ======================================== */
+/* IMAGE */
+/* ======================================== */
+
+.stamp-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  background: #f3f4f6;
+}
+
+/* ======================================== */
+/* INFO */
+/* ======================================== */
+
+.stamp-info {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* ======================================== */
+/* TITLE */
+/* ======================================== */
+
+.stamp-info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  line-height: 1.4;
+  height: 45px;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+/* ======================================== */
+/* PRICE */
+/* ======================================== */
+
+.stamp-info p {
+  font-size: 22px;
+  font-weight: 800;
+  color: #111827;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+/* ======================================== */
+/* STOCK */
+/* ======================================== */
+
+.stock {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  background: #dcfce7;
+  color: #166534;
+}
+
+/* ======================================== */
+/* BUTTON */
+/* ======================================== */
+
+.cart-btn {
+  width: 100%;
+  border: none;
+  background: #f59e0b;
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  transition: .3s;
+  margin-top: auto;
+}
+
+.cart-btn:hover {
+  background: #d97706;
+}
+
+/* ======================================== */
+/* VIEW MORE */
+/* ======================================== */
+
+.view-more-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.view-more-btn {
+  border: none;
+  background: #111827;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  transition: .3s;
+}
+
+.view-more-btn:hover {
+  background: #1f2937;
+}
+
+/* ======================================== */
+/* LOADING */
+/* ======================================== */
+
+.explore-loading {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+}
+
+
+/* Styling updates for our custom dynamic live-stamps layout overrides */
+.live-grid-title {
+  font-size: 22px;
+  color: #111827;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+/* Red Live Marker overlaid on top of stamp layout grids */
+.card-live-dot-indicator {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(239, 68, 68, 0.95);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  z-index: 5;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* State Badge styling variations */
+.stock.in-stock {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.stock.out-of-stock {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* Fallback handling styles for completely empty admin feeds */
+.empty-live-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 40px;
+}
+
+.fallback-hero {
+  background: linear-gradient(135deg, #374151, #1f2937) !important;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 0 !important;
+}
+
+.live-badge.offline {
+  background: #6b7280 !important;
+}
+/* Custom storefront display utilities */
+.live-grid-title {
+  font-size: 24px;
+  color: #111827;
+  font-weight: 700;
+  margin-bottom: 24px;
+  margin-top: 10px;
+}
+
+.card-live-dot-indicator {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #ef4444;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  z-index: 5;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.stock.in-stock {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.stock.out-of-stock {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.fallback-hero {
+  background: linear-gradient(135deg, #1f2937, #111827) !important;
+}
+
+.live-badge.offline {
+  background: #4b5563 !important;
+}
+
+/* ======================================== */
+/* RESPONSIVE MEDIA QUERIES */
+/* ======================================== */
+
+@media (max-width: 1400px) {
+  .stamp-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1100px) {
+  .stamp-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .explore-page {
+    padding: 20px;
+  }
+
+  .explore-hero {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 20px;
+  }
+
+  .stamp-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-image {
+    width: 180px;
+    height: 240px;
+  }
+}
+
+@media (max-width: 500px) {
+  .stamp-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .slider-btn {
+    width: 46px;
+    height: 46px;
+  }
+}

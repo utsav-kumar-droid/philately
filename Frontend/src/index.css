@@ -1,0 +1,116 @@
+/* ===============================
+   Global Styles (index.css)
+================================= */
+:root {
+  --ink:     #0d0d14;
+  --deep:    #111827;
+  --navy:    #1e3a5f;
+  --cobalt:  #1d4ed8;
+  --sky:     #3b82f6;
+  --gold:    #c8921a;
+  --amber:   #f59e0b;
+  --cream:   #fdf6ec;
+  --parchm:  #f3e9d2;
+  --rust:    #b45309;
+  --sage:    #0f766e;
+  --coral:   #e11d48;
+  --white:   #ffffff;
+  --muted:   #6b7280;
+  --border:  rgba(0,0,0,0.08);
+  --sh1:     0 4px 24px rgba(0,0,0,0.10);
+  --sh2:     0 16px 56px rgba(0,0,0,0.18);
+  --sh3:     0 32px 80px rgba(0,0,0,0.28);
+}
+*{margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{font-family:'Outfit',sans-serif;background:var(--cream);color:var(--ink);overflow-x:hidden}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:#f0e8d8}
+::-webkit-scrollbar-thumb{background:var(--cobalt);border-radius:3px}
+::selection{background:var(--amber);color:var(--ink)}
+img,svg{display:block}
+
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f0e6;
+  color: #333;
+} */
+/* 
+* {
+  box-sizing: border-box;
+} */
+body {
+  overflow-x: hidden;
+}
+.hero {
+  max-width: 1000vw;
+}
+
+/* .main-content {
+  padding-top: 72px;
+} */
+
+/* App Container */
+/* html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+} */
+
+/* .app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+} */
+
+/* .main-content {
+  flex: 1;
+  padding: 20px;
+  max-width: 11000px;
+  margin: 0 auto;
+  width: 100%;
+} */
+
+/* Footer */
+.footer {
+  background-color: #2b2b2b;
+  color: #fff;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 0.95rem;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-links a {
+  color: #f0f0f0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #00bcd4;
+}
+
+.footer-icon {
+  color: #e25555;
+  margin: 0 5px;
+}
+
+

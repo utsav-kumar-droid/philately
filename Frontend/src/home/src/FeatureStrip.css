@@ -1,0 +1,39 @@
+.feature-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+
+.feature-box {
+  display: flex;
+  gap: 16px;
+  padding: 28px;
+  align-items: center;
+  border-right: 1px solid #eee;
+}
+
+.feature-icon {
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef2ff;
+  font-size: 28px;
+}
+
+.feature-box h4 {
+  margin: 0;
+  color: #111827;
+  font-size: 16px;
+}
+
+.feature-box p {
+  margin: 4px 0 0;
+  color: #6b7280;
+  font-size: 14px;
+}

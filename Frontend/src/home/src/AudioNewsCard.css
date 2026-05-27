@@ -1,0 +1,379 @@
+/* ==========================================================================
+   🏛️ BASE CONTAINER BACKGROUND & CANVAS (60% UI Dominance)
+   ========================================================================== */
+.audio-news-wrapper {
+  padding: 56px 40px 80px;
+  background: #f6f1e8; /* Your beautiful original vintage paper background */
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  box-sizing: border-box;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 100px 40px;
+}
+
+/* ==========================================================================
+   ✨ STRUCTURAL TYPOGRAPHY & LAYOUT LABELS (30% Support System)
+   ========================================================================== */
+.audio-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding-bottom: 24px;
+}
+
+.live-container-flex {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.subheader-text {
+  color: #2563eb;
+  letter-spacing: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.main-section-title {
+  font-size: 64px;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  color: #111827;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+
+.view-all-anchor {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: opacity 0.2s;
+}
+
+.view-all-anchor:hover {
+  opacity: 0.8;
+}
+
+/* ==========================================================================
+   🎛️ HERO AUDIO INTERACTIVE CONTAINER
+   ========================================================================== */
+.audio-card-layout-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  margin-bottom: 48px;
+}
+
+.hero-player-image-aside {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+}
+
+.hero-player-image-aside img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.audio-wave-pulse-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(245, 158, 11, 0.25);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  animation: pulseScale 1.5s infinite alternate;
+}
+
+/* Nested control framework inside white layout container */
+.audio-card {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+
+.audio-content {
+  flex: 1;
+  text-align: left;
+}
+
+.track-title-text {
+  margin: 0 0 6px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+  letter-spacing: -0.01em;
+}
+
+.track-meta-text {
+  margin: 0 0 16px 0;
+  font-size: 14px;
+  color: #4b5563;
+  font-weight: 500;
+}
+
+/* Progress Sliders Framework */
+.progress-track-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.progress-track-bg {
+  flex-grow: 1;
+  height: 6px;
+  background: #f3f4f6;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill-node {
+  height: 100%;
+  background: #f59e0b; /* Accented fill layer */
+  transition: width 0.1s linear;
+}
+
+.time-display {
+  min-width: 60px;
+  text-align: right;
+  font-weight: 700;
+  font-size: 13px;
+  color: #1f2937;
+}
+
+/* ==========================================================================
+   🗂️ GRID MODULES & SELECTION PILES (30% Secondary Weight)
+   ========================================================================== */
+.live-pile-title {
+  font-size: 16px;
+  color: #4b5563;
+  margin: 0 0 20px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.audio-live-pile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.live-pile-item-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.015);
+}
+
+.live-pile-item-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+  border-color: #cbd5e1;
+}
+
+.pile-img-thumbnail {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
+
+.pile-img-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.pile-text-details {
+  text-align: left;
+  overflow: hidden;
+}
+
+.pile-text-details h4 {
+  margin: 0 0 4px 0;
+  font-size: 15px;
+  color: #111827;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pile-text-details p {
+  margin: 0;
+  font-size: 12px;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+/* ==========================================================================
+   ⚡ HIGH EMISSION INTERACTION TARGETS (10% Focus Weight Accent)
+   ========================================================================== */
+.live-badge-pill {
+  background: #e11d48; /* High urgency signal red */
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+/* Target circular button rules mapping dynamic active state hooks */
+.play-btn-circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: none;
+  font-size: 18px;
+  background: #f59e0b; /* Vivid amber warning pop tone */
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.35);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.play-btn-circle:hover {
+  background: #d97706;
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(217, 119, 6, 0.45);
+}
+
+.pause-active {
+  background: #111827 !important;
+  box-shadow: 0 6px 20px rgba(17, 24, 39, 0.25) !important;
+}
+
+.play-icon-offset {
+  margin-left: 4px;
+}
+
+/* Grid card matching dynamic selection hook variables */
+.live-pile-item-card.selected-track {
+  border-color: #2563eb;
+  background: #eff6ff;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.08);
+}
+
+.live-indicator-dot {
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  color: #dc2626;
+  font-size: 14px;
+  background: #ffffff;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  animation: pulseBlink 1.2s infinite alternate;
+}
+
+/* ==========================================================================
+   📱 ADAPTIVE MEDIA RESPONSIVENESS OVERRIDES
+   ========================================================================== */
+@media (max-width: 992px) {
+  .audio-card-layout-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+    padding: 24px;
+  }
+  
+  .hero-player-image-aside {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .audio-news-wrapper {
+    padding: 32px 20px 60px;
+  }
+
+  .audio-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .main-section-title {
+    font-size: 42px;
+  }
+
+  .audio-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .audio-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .progress-track-wrapper {
+    margin-top: 8px;
+  }
+
+  .time-display {
+    text-align: center;
+  }
+}
+
+/* ==========================================================================
+   🎬 ANIMATION STREAMS
+   ========================================================================== */
+@keyframes pulseScale {
+  0% { opacity: 0.8; transform: scale(1); }
+  100% { opacity: 1; transform: scale(1.02); }
+}
+
+@keyframes pulseBlink {
+  0% { transform: scale(0.9); opacity: 0.6; }
+  100% { transform: scale(1.1); opacity: 1; }
+}

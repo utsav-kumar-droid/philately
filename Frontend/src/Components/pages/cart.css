@@ -1,0 +1,237 @@
+.cart-page{
+
+  width:100%;
+
+  min-height:100vh;
+
+  background:#f3f4f6;
+
+  padding:40px;
+
+  display:flex;
+
+  gap:30px;
+
+  box-sizing:border-box;
+}
+
+/* LEFT */
+
+.cart-left{
+  flex:3;
+}
+
+.cart-left h1{
+
+  margin-bottom:30px;
+
+  color:#111827;
+}
+
+/* CARD */
+
+.cart-card{
+
+  background:white;
+
+  border-radius:20px;
+
+  padding:20px;
+
+  display:flex;
+
+  gap:20px;
+
+  margin-bottom:20px;
+
+  box-shadow:
+    0 4px 12px rgba(0,0,0,0.08);
+}
+
+.cart-card img{
+
+  width:180px;
+
+  height:180px;
+
+  object-fit:cover;
+
+  border-radius:14px;
+}
+
+/* DETAILS */
+
+.cart-details{
+
+  flex:1;
+}
+
+.cart-details h2{
+
+  font-size:24px;
+
+  margin-bottom:10px;
+}
+
+.cart-details p{
+
+  font-size:22px;
+
+  font-weight:700;
+
+  color:#f59e0b;
+
+  margin-bottom:20px;
+}
+
+/* QUANTITY */
+
+.quantity-box{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:15px;
+
+  margin-bottom:20px;
+}
+
+.quantity-box button{
+
+  width:40px;
+
+  height:40px;
+
+  border:none;
+
+  border-radius:10px;
+
+  background:#111827;
+
+  color:white;
+
+  cursor:pointer;
+
+  font-size:18px;
+}
+
+.remove-btn{
+
+  border:none;
+
+  background:#dc2626;
+
+  color:white;
+
+  padding:12px 22px;
+
+  border-radius:12px;
+
+  cursor:pointer;
+
+  font-weight:600;
+}
+
+/* RIGHT */
+
+.cart-right{
+
+  flex:1;
+
+  background:white;
+
+  padding:30px;
+
+  border-radius:20px;
+
+  height:fit-content;
+
+  box-shadow:
+    0 4px 12px rgba(0,0,0,0.08);
+}
+
+.cart-right h2{
+
+  margin-bottom:30px;
+}
+
+.summary-row{
+
+  display:flex;
+
+  justify-content:space-between;
+
+  margin-bottom:20px;
+
+  font-size:18px;
+}
+
+.cart-right textarea{
+
+  width:100%;
+
+  height:120px;
+
+  margin-top:20px;
+
+  border-radius:14px;
+
+  border:1px solid #d1d5db;
+
+  padding:14px;
+
+  resize:none;
+
+  font-size:15px;
+}
+
+/* BUTTON */
+
+.checkout-btn{
+
+  width:100%;
+
+  margin-top:25px;
+
+  border:none;
+
+  background:#f59e0b;
+
+  color:white;
+
+  padding:16px;
+
+  border-radius:14px;
+
+  cursor:pointer;
+
+  font-size:17px;
+
+  font-weight:700;
+}
+
+.checkout-btn:hover{
+
+  background:#d97706;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+  .cart-page{
+
+    flex-direction:column;
+  }
+
+  .cart-card{
+
+    flex-direction:column;
+  }
+
+  .cart-card img{
+
+    width:100%;
+  }
+}
