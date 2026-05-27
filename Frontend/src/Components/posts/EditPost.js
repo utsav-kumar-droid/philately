@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import api from "../../utils/api";
 import { toast } from "react-toastify";
-// import "./EditPost.css";
+import "./EditPost.css";
 
 
 const EditPost = () => {

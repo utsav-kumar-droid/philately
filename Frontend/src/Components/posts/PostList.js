@@ -1,7 +1,7 @@
 // src/components/posts/PostList.js
 import React from 'react';
 import PostItem from './PostItem';
-// import './PostList.css';
+import './PostList.css';
 
 const PostList = ({ posts }) => {
   const hasPosts = Array.isArray(posts) && posts.length > 0;

@@ -1,4 +1,4 @@
-5815
+5816
 93E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\node-addon-api\README.md134242500314644909 0
 83E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\semver\LICENSE134242500369847771 0
 79E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\parcel\src134242527097299898 1
@@ -16,7 +16,7 @@
 64E:\fullwebdevelopment\minorprojectmain\Project\Frontend\src\home134242527333580452 1
 125E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\caniuse-lite\data\features\same-site-cookie-attribute.js134242500209389912 0
 101E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\minimatch\dist\commonjs\index.js134242563733047814 0
-60E:\fullwebdevelopment\minorprojectmain\Project\Frontend\.env134242499956544937 0
+60E:\fullwebdevelopment\minorprojectmain\Project\Frontend\.env134243229508285686 0
 98E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\regenerator-runtime\README.md134242500367447857 0
 102E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\weak-lru-cache\tests\benchmark.js134242500403761551 0
 68E:\fullwebdevelopment\minorprojectmain\Project\Frontend\package.json134242563735076239 0
@@ -40,7 +40,11 @@
 117E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@parcel\runtime-js\src\helpers\node\js-loader.js134242500069523658 0
 97E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@parcel\workers\lib\index.js134242500103031485 0
 100E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@parcel\workers\src\cpuCount.js134242500104463514 0
-60E:\fullwebdevelopment\minorprojectmain\Project\Frontend\dist134243158724832676 1
+60E:\fullwebdevelopment\minorprojectmain\Project\Frontend\dist134243250723705782 1
+103E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@parcel\packager-js\lib\helpers.js134242500057093879 0
+92E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\semver\functions\inc.js134242500371281164 0
+66E:\fullwebdevelopment\minorprojectmain\Project\Frontend\.gitignore134243174801583645 0
+96E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\axios\dist\esm\axios.min.js134242500161193122 0
 116E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@parcel\transformer-image\lib\validateConfig.js134242500083968785 0
 93E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\react-icons\ai\index.mjs134242500338875015 0
 82E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\utility-types134242527273370255 1
@@ -56,6 +60,7 @@
 88E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\cipher-base\LICENSE134242500236114986 0
 68E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules134242563735012474 1
 69E:\fullwebdevelopment\minorprojectmain\Project\Frontend\src\index1.js134242589847282357 0
+59E:\fullwebdevelopment\minorprojectmain\Project\Frontend\src134242527337952830 1
 84E:\fullwebdevelopment\minorprojectmain\Project\Frontend\src\Components\auth\Login.js134242500405596175 0
 89E:\fullwebdevelopment\minorprojectmain\Project\Frontend\src\Components\posts\PostForm.css134242500408476176 0
 101E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\react-icons\lib\iconContext.d.ts134242500349504220 0
@@ -78,7 +83,6 @@
 115E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\caniuse-lite\data\features\css-first-letter.js134242500187085957 0
 95E:\fullwebdevelopment\minorprojectmain\Project\Frontend\src\Components\comments\CommentForm.css134242500405836175 0
 100E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\asn1.js\lib\asn1\base\buffer.js134242500155266303 0
-59E:\fullwebdevelopment\minorprojectmain\Project\Frontend\src134242527337952830 1
 85E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@parcel\core\lib134242526379054818 1
 84E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\nodemon\lib\cli134242563733405465 1
 88E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\picomatch\README.md134242500325705564 0
@@ -246,13 +250,6 @@
 102E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\validator\lib\isStrongPassword.js134242500400752692 0
 89E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\debug\src\browser.js134242500245538226 0
 100E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\weak-lru-cache\rollup.config.js134242500403484821 0
-95E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\validator\lib\whitelist.js134242500402242380 0
-89E:\fullwebdevelopment\minorprojectmain\Project\Frontend\src\Components\posts\PostItem.css134242500408636173 0
-114E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\caniuse-lite\data\features\iframe-seamless.js134242500199530726 0
-94E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\binary-extensions\license134242563729043398 0
-93E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\browserify-sign\index.js134242500172958314 0
-105E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@swc\helpers\_\_dispose\package.json134242500143788334 0
-93E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\validator\lib\isEmpty.js134242500397265969 0
 88E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\readable-stream\doc134242527232315952 1
 116E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@swc\helpers\src\_skip_first_generator_next.mjs134242500134780107 0
 82E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\validator\lib134242527319611920 1
@@ -339,6 +336,13 @@
 83E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\node-addon-api134242527085150223 1
 133E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\react-router-dom\dist\umd\react-router-dom.production.min.js.map134242500362659898 0
 88E:\fullwebdevelopment\minorprojectmain\Project\Frontend\src\Components\posts\PostForm.js134242635712839755 0
+95E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\validator\lib\whitelist.js134242500402242380 0
+89E:\fullwebdevelopment\minorprojectmain\Project\Frontend\src\Components\posts\PostItem.css134242500408636173 0
+114E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\caniuse-lite\data\features\iframe-seamless.js134242500199530726 0
+94E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\binary-extensions\license134242563729043398 0
+93E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\browserify-sign\index.js134242500172958314 0
+105E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@swc\helpers\_\_dispose\package.json134242500143788334 0
+93E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\validator\lib\isEmpty.js134242500397265969 0
 86E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\es-errors\type.js134242500259056637 0
 100E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\validator\lib\isAlphanumeric.js134242500396105145 0
 90E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@parcel\feature-flags134242526432930004 1
@@ -478,8 +482,8 @@
 94E:\fullwebdevelopment\minorprojectmain\Project\Frontend\src\Components\comments\CommentItem.js134242500405986175 0
 137E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@parcel\core\test\fixtures\targets-default-distdir-none\package.json134242500037636044 0
 93E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\validator\lib\toFloat.js134242500401959338 0
-94E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\validator\es\lib\rtrim.js134242500394321789 0
 94E:\fullwebdevelopment\minorprojectmain\Project\Frontend\src\Components\comments\CommentList.js134242633840123515 0
+94E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\validator\es\lib\rtrim.js134242500394321789 0
 96E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\readable-stream\.travis.yml134242500364752094 0
 103E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\get-proto\Object.getPrototypeOf.js134242500268134947 0
 87E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\tslib\package.json134242500379282259 0
@@ -1148,7 +1152,6 @@
 108E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\pbkdf2\node_modules\hash-base\README.md134242500324396521 0
 93E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\validator\lib\isTaxID.js134242500400862370 0
 91E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\validator\lib\alpha.js134242500395632183 0
-97E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\react-icons\tfi\package.json134242500356756857 0
 83E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\react-icons\fc134242527172220386 1
 106E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\validator\es\lib\isISO31661Numeric.js134242500391338977 0
 95E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\validator\lib\blacklist.js134242500395694834 0
@@ -1995,8 +1998,6 @@
 95E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\semver\functions\coerce.js134242500370815207 0
 94E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\is-binary-path\index.d.ts134242563729075652 0
 95E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\react-router-dom\README.md134242500361183387 0
-103E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@parcel\packager-js\lib\helpers.js134242500057093879 0
-92E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\semver\functions\inc.js134242500371281164 0
 92E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\randombytes\.travis.yml134242500332223939 0
 94E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\semver\functions\major.js134242500371468157 0
 89E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@swc\helpers\LICENSE134242500114822554 0
@@ -2177,8 +2178,8 @@
 126E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\react-router-dom\dist\react-router-dom.development.js.map134242500361961287 0
 128E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_load.1134242500293698529 0
 125E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\react-router-dom\dist\react-router-dom.production.min.js134242500362015005 0
-88E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\is-callable\LICENSE134242500279705829 0
 129E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\react-router-dom\dist\react-router-dom.production.min.js.map134242500362087373 0
+88E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\is-callable\LICENSE134242500279705829 0
 85E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\is-glob\index.js134242500280617223 0
 102E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\react-router-dom\dist\server.d.ts134242500362187250 0
 94E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@parcel\feature-flags\lib134242526432246413 1
@@ -2264,6 +2265,7 @@
 105E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\caniuse-lite\data\features\webgl2.js134242500216166342 0
 93E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\react-icons\tfi\index.js134242500356596604 0
 94E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\react-icons\tfi\index.mjs134242500356696846 0
+97E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\react-icons\tfi\package.json134242500356756857 0
 106E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\crypto-browserify\test\create-hmac.js134242500244465717 0
 94E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\react-icons\tb\index.d.ts134242500355837244 0
 92E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\react-icons\tb\index.js134242500356064784 0
@@ -2615,8 +2617,8 @@
 92E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\pstree.remy\.travis.yml134242563730768201 0
 93E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\math-intrinsics\isNaN.js134242500302347943 0
 116E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@parcel\transformer-posthtml\src\loadPlugins.js134242500087293142 0
-84E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\pstree.remy\lib134242563730669008 1
 127E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@swc\helpers\_\_iterable_to_array_limit_loose\package.json134242500146294850 0
+84E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\pstree.remy\lib134242563730669008 1
 122E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@swc\helpers\cjs\_object_without_properties_loose.cjs134242500120066687 0
 108E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\caniuse-lite\data\features\gyroscope.js134242500198699315 0
 93E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\pstree.remy\package.json134242563730723696 0
@@ -3854,7 +3856,7 @@
 118E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@swc\helpers\cjs\_is_native_reflect_construct.cjs134242500119284650 0
 116E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@swc\helpers\esm\_initializer_warning_helper.js134242500125936906 0
 100E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\commander\lib\suggestSimilar.js134242500240007446 0
-86E:\fullwebdevelopment\minorprojectmain\Project\Frontend\dist\Frontend.9f367d21.css.map134243158722362587 0
+86E:\fullwebdevelopment\minorprojectmain\Project\Frontend\dist\Frontend.9f367d21.css.map134243250722146464 0
 88E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\combined-stream\lib134242526934620553 1
 97E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\combined-stream\package.json134242500238836359 0
 94E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\combined-stream\yarn.lock134242500238959478 0
@@ -3866,7 +3868,7 @@
 91E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\color-convert\route.js134242500238327548 0
 124E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@swc\helpers\_\_object_destructuring_empty\package.json134242500147035035 0
 84E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\clsx\clsx.d.mts134242500237106717 0
-82E:\fullwebdevelopment\minorprojectmain\Project\Frontend\dist\Frontend.9f367d21.css134243158722332593 0
+82E:\fullwebdevelopment\minorprojectmain\Project\Frontend\dist\Frontend.9f367d21.css134243250722114994 0
 83E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\clsx\clsx.d.ts134242500237245915 0
 78E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\clsx\dist134242526932131520 1
 120E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\caniuse-lite\data\features\credential-management.js134242500184172299 0
@@ -4700,7 +4702,6 @@
 88E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\axios\dist\axios.js134242500160349146 0
 92E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\axios\dist\axios.min.js134242500160513140 0
 98E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\axios\dist\node\axios.cjs.map134242500161585152 0
-96E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\axios\dist\esm\axios.min.js134242500161193122 0
 103E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\@parcel\packager-wasm\package.json134242500059205833 0
 97E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\axios\dist\browser\axios.cjs134242500160743148 0
 101E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\axios\dist\browser\axios.cjs.map134242500160823127 0
@@ -5811,6 +5812,6 @@
 80E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\.bin\semver134242500010581248 0
 84E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\.bin\semver.ps1134242500010702024 0
 100E:\fullwebdevelopment\minorprojectmain\Project\Frontend\node_modules\.bin\update-browserslist-db.cmd134242500011007039 0
-81E:\fullwebdevelopment\minorprojectmain\Project\Frontend\dist\Frontend.f2e19340.js134243158724642675 0
-85E:\fullwebdevelopment\minorprojectmain\Project\Frontend\dist\Frontend.f2e19340.js.map134243158724822673 0
-71E:\fullwebdevelopment\minorprojectmain\Project\Frontend\dist\index.html134243158722016842 0
+81E:\fullwebdevelopment\minorprojectmain\Project\Frontend\dist\Frontend.f2e19340.js134243250723579069 0
+85E:\fullwebdevelopment\minorprojectmain\Project\Frontend\dist\Frontend.f2e19340.js.map134243250723695733 0
+71E:\fullwebdevelopment\minorprojectmain\Project\Frontend\dist\index.html134243250722013144 0

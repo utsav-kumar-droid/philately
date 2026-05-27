@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import api from '../../utils/api';
 import { toast } from 'react-toastify';
 import { useAuth } from '../../context/AuthContext';
-// import './PostForm.css';
+import './PostForm.css';
 
 const PostForm = () => {
   const { id } = useParams(); // id exists if editing

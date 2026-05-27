@@ -5,7 +5,7 @@ import CommentList from '../comments/CommentList';
 import CommentForm from '../comments/CommentForm';
 import { useAuth } from '../../context/AuthContext';
 import { toast } from 'react-toastify';
-// import './Post.css';
+import './Post.css';
 
 const Post = () => {
   const { id } = useParams();
