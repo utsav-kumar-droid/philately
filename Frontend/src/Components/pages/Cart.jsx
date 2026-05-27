@@ -7,7 +7,7 @@ import {
   useNavigate,
 } from "react-router-dom";
 
-import "./cart.css";
+import "./Cart.css";
 
 const Cart = () => {
 
